@@ -25,6 +25,9 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://helpnowaz.org/',
       expectedCodes: [200],
       timeout: 10000,
+      headers: {
+    'User-Agent': 'YourWebGeeks-UptimeMonitor/1.0',
+    },
     },
   ],
 }
